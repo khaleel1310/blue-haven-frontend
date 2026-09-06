@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Menu, X, Droplets } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 export const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
